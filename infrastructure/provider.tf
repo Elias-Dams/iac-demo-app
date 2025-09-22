@@ -13,6 +13,15 @@ terraform {
       version = "2.6.0"
     }
   }
+
+  cloud { 
+    organization = "AE_NV" 
+
+    workspaces { 
+      name = "Elias_Dams_dev" 
+    } 
+  }
+
   required_version = ">= 1.5.7"
 }
 
@@ -21,4 +30,3 @@ provider "azurerm" {
   subscription_id = var.subscription_id
   features {}
 }
-
