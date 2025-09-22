@@ -103,5 +103,3 @@ App service plan en function app config:
 - os_type = Windows [tip](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/windows_function_app)
 - custom runtime = true
 - setting "WEBSITE_RUN_FROM_PACKAGE" = url naar de package
-
-Change
