@@ -104,3 +104,4 @@ App service plan en function app config:
 - custom runtime = true
 - setting "WEBSITE_RUN_FROM_PACKAGE" = url naar de package
 
+Change
